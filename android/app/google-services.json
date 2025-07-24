@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "249364998231",
+    "project_id": "arfit-ae722",
+    "storage_bucket": "arfit-ae722.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249364998231:android:c1cd5df11efb6503e59b12",
+        "android_client_info": {
+          "package_name": "com.example.arfit_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpLd3f3MaUhmqL59yjCTRKkbX7GswnWA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

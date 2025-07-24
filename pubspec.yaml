@@ -1,0 +1,67 @@
+name: arfit_app
+description: Fitness app by Mohammed
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Utility Packages
+  google_fonts: ^6.1.0
+  percent_indicator: ^4.2.2
+  url_launcher: ^6.2.5
+  youtube_player_iframe: ^5.1.2
+  intl: ^0.19.0
+  table_calendar: ^3.0.9  
+  fl_chart: ^0.63.0
+  http: ^1.2.2
+
+  # Firebase & State Management
+  firebase_core: ^3.13.1
+  firebase_auth: ^5.5.4
+  cloud_firestore: ^5.6.8
+  provider: ^6.0.5
+  image_picker: ^1.0.4
+  firebase_storage: ^12.4.6
+  
+  # AR & Camera Packages
+  camera: ^0.11.1
+  google_mlkit_pose_detection: ^0.14.0
+  google_mlkit_commons: ^0.11.0
+  permission_handler: ^12.0.0+1
+  
+  
+  # ✅ ADDED for workout completion effects
+  confetti: ^0.7.0
+  audioplayers: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Asset paths are correct
+  assets:
+    - assets/logo/
+    - assets/icons/
+    - assets/models/pose_classifier.tflite
+    - assets/models/labels.txt
+    - assets/ # Also include the root assets folder for success.mp3
+
+  # Font declaration is correct
+  fonts:
+    - family: Exo
+      fonts:
+        - asset: assets/fonts/Exo-Regular.ttf
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo/arfit_icon.png"
